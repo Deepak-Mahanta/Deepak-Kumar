@@ -121,7 +121,7 @@ a {
   border-color: transparent;
 }
 section {
-  padding: 7rem 0 5rem;
+  padding: 7rem 0 6rem;
 }
 section:nth-child(even) {
   background: var(--color-gray-50);
