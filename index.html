@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <!-- Google font (montserrot) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- CDN OF RENIX ICON -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <!-- Animate on scroll     -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ====== Navbar====== -->
+  <nav>
+    <div class="container nav-container">
+      <a href="index.html">DEEPAK</a>
+      <button class="nav-theme-btn">
+        <i class="ri-moon-line"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ====== Floting nav====== -->
+  <menu class="floting-nav">
+    <a href="#" class="active"><i class="ri-home-3-line"></i></a>
+    <a href="#resume"><i class="ri-briefcase-line"></i></i></a>
+    <a href="#projects"><i class="ri-passport-line"></i></a>
+    <a href="#contact"><i class="ri-contacts-line"></i></a>
+  </menu>
+
+
+  <!-- ======== =   HEADER   ============ -->
+  <header>
+    <div class="header-container">
+      <div class="header-image" data-aos="fade-up" data-aos-delay="800">
+        <img src="./assets/febicon2.jpg" alt="Header-image">
+      </div>
+      <h5 data-aos="fade-in" data-aos-delay="500">Hi, I'm Deepak Kumar</h5>
+      <h1 data-aos="fade-in" data-aos-delay="500">Fullstack <span>Web Developer </span>
+      </h1>
+      <p data-aos="fade-in" data-aos-delay="500">I'm a Software Engineer (Frontend & Full Stack) with 6 months of experience using Reactjs. Reach out if you'd like to Know more!
+      </p>
+      <div class="header-cta" data-aos="fade-in">
+        <a href="#projects" class="btn"> My Projects</a>
+        <a href="#contact" class="btn primary">Hire me</a>
+      </div>
+      <menu class="header-social" data-aos="fade-left" data-aos-delay="200">
+        <a href="add links"><i class="ri-github-line"></i></a>
+        <a href="add links"><i class="ri-linkedin-box-fill"></i></a>
+        <a href="add links"><i class="ri-twitter-x-line"></i></a>
+        <a href="add links"><i class="ri-instagram-line"></i></a>
+
+      </menu>
+    </div>
+  </header>
+
+
+  <!-- RESUME ------------------------------>
+  <section id="resume">
+    <div class="container resume-container" data-aos="fade-in" data-aos-delay="200">
+      <div class="resume-left">
+        <h1>Get to know me!</h1>
+        <p>Here you will find more information about me.
+        </p>
+        <menu>
+          <button class="btn primary experience-btn">Experience</button>
+          <button class="btn education-btn">Education</button>
+          <button class="btn skills-btn">Skills</button>
+          <button class="btn about-btn">About</button>
+        </menu>
+
+      </div>
+      <div class="resume-right">
+
+      </div>
+    </div>
+  </section>
+
+
+  <!--  =========== PROJECTS ========= -->
+  <section class="projects" id="projects">
+    <h1>Recent Projects</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores pariatur laboriosam inventore culpa voluptatem
+      provident unde deleniti omnis.
+
+    </p>
+    <menu class="projects-catagories" >
+      <button class="btn " data-filter="*">All</button>
+      <button class="btn" data-filter=".frontend">Frontend</button>
+      <button class="btn" data-filter=".backend">Backend</button>
+      <button class="btn" data-filter=".fullstack">Fullstack</button>
+
+    </menu>
+    <div class="container projects-container" data-aos="fade-in" data-aos-delay="200">
+
+      <article class="project mix fullstack" data-order="1">
+        <div class="project-image">
+          <img src="./assets/project1.jpg" alt="Project 1">
+        </div>
+        <h5>Project 1 titel (Fullstack) </h5>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, provident omnis numquam quidem architecto
+          sunt.
+        </p>
+        <div class="project-cta">
+          <a href="https://dummy.com" class="btn primary" target="_blank"><i class="ri-link-unlink"></i></a>
+          <a href="https://github.com" class="btn " target="_blank"><i class="ri-github-fill"></i></i></a>
+        </div>
+      </article>
+
+      <article class="project mix fullstack" data-order="2">
+        <div class="project-image">
+          <img src="./assets/project2.jpg" alt="Project 2">
+        </div>
+        <h5>Project 2 titel (Fullstack) </h5>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, provident omnis numquam quidem architecto
+          sunt.
+        </p>
+        <div class="project-cta">
+          <a href="https://dummy.com" class="btn primary" target="_blank"><i class="ri-link-unlink"></i></a>
+          <a href="https://github.com" class="btn " target="_blank"><i class="ri-github-fill"></i></i></a>
+        </div>
+      </article>
+
+      <article class="project mix frontend" data-order="3">
+        <div class="project-image">
+          <img src="./assets/project3.jpg" alt="Project 3">
+        </div>
+        <h5>Project 3 titel (Frontend) </h5>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, provident omnis numquam quidem architecto
+          sunt.
+        </p>
+        <div class="project-cta">
+          <a href="https://dummy.com" class="btn primary" target="_blank"><i class="ri-link-unlink"></i></a>
+          <a href="https://github.com" class="btn " target="_blank"><i class="ri-github-fill"></i></i></a>
+        </div>
+      </article>
+
+      <article class="project mix frontend" data-order="4">
+        <div class="project-image">
+          <img src="./assets/project4.jpg" alt="Project 4">
+        </div>
+        <h5>Project 4 titel (Frontend) </h5>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, provident omnis numquam quidem architecto
+          sunt.
+        </p>
+        <div class="project-cta">
+          <a href="https://dummy.com" class="btn primary" target="_blank"><i class="ri-link-unlink"></i></a>
+          <a href="https://github.com" class="btn " target="_blank"><i class="ri-github-fill"></i></i></a>
+        </div>
+      </article>
+
+      <article class="project mix backend" data-order="5">
+        <div class="project-image">
+          <img src="./assets/project5.jpg" alt="Project 5">
+        </div>
+        <h5>Project 5 titel (Backend) </h5>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, provident omnis numquam quidem architecto
+          sunt.
+        </p>
+        <div class="project-cta">
+          <a href="https://dummy.com" class="btn primary" target="_blank"><i class="ri-link-unlink"></i></a>
+          <a href="https://github.com" class="btn " target="_blank"><i class="ri-github-fill"></i></i></a>
+        </div>
+      </article>
+
+
+      <article class="project mix frontend" data-order="6">
+        <div class="project-image">
+          <img src="./assets/project6.jpg" alt="Project 6">
+        </div>
+        <h5>Project 6 titel (Frontend) </h5>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, provident omnis numquam quidem architecto
+          sunt.
+        </p>
+        <div class="project-cta">
+          <a href="https://dummy.com" class="btn primary" target="_blank"><i class="ri-link-unlink"></i></a>
+          <a href="https://github.com" class="btn " target="_blank"><i class="ri-github-fill"></i></i></a>
+        </div>
+      </article>
+    </div>
+
+  </section>
+
+
+  <!-- contact -->
+  <section id="contact">
+    <div class="container contact-container" >
+      <menu class="contact-options">
+        <a href="https://twitter.com" class="contact-option" target="_blank">
+          <i class="ri-linkedin-box-fill"></i>
+        </a>
+        <a href="https://github.com" class="contact-option" target="_blank">
+          <i class="ri-twitter-fill"></i>
+        </a>
+        <a href="https://linkedin.com" class="contact-option" target="_blank">
+          <i class="ri-github-fill"></i>
+        </a>
+      </menu>
+      <form action="https://formsubmit.co/f6c9cb56054f662be931b64655297ccf" method="POST" data-aos="fade-up" />
+        <input type="text" name="Name" placeholder="Full Name" required>
+        <input type="email" name="Email" placeholder="Email Address" required>
+        <textarea rows="7" name="Message" placeholder="Message..."></textarea>
+        <button type="submit" class="btn primary">Send</button>
+      </form>
+    </div>
+  </section>
+
+  
+   <script src="./mix/dist/mixitup.min.js"></script>
+
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script>
+     AOS.init({duration:2000,offset:80});
+   </script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
