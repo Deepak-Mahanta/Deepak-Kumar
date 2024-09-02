@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Deepak.dev</title>
+  <title>Deepak.com</title>
   <!-- febicon -->
   <link rel="shortcut icon" href="/assets/febicon1.jpeg" type="image/x-icon" />
   <!-- Google font (montserrot) -->
@@ -199,12 +199,18 @@
           <i class="ri-linkedin-box-fill"></i>
         </a>
       </menu>
-      <form action="https://formsubmit.co/f6c9cb56054f662be931b64655297ccf" method="POST" data-aos="fade-up" />
-        <input type="text" name="Name" placeholder="Full Name" required>
-        <input type="email" name="Email" placeholder="Email Address" required>
-        <textarea rows="7" name="Message" placeholder="Message..."></textarea>
+     
+
+      <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+
+        <input type="hidden" name="access_key" value="99aae606-141f-4ea9-a3a2-d05b1c3cf93e">
+    
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+        <textarea rows="7" name="message"  placeholder=" Feel free to message..." required></textarea>
         <button type="submit" class="btn primary">Send</button>
-      </form>
+    
+    </form>
     </div>
   </section>
 
