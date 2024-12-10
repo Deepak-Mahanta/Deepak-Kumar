@@ -89,6 +89,8 @@ const skillsContent = `<h4>Skills</h4>
     <li><img src="./assets/figma.png" alt="Prisma logo"></li>
     <li><img src="./assets/mongodb.png" alt="MongoDB logo"></li>
     <li><img src="./assets/jwt.png" alt="JWT logo"></li>
+    <li><img src="./assets/logo-mysql-170x115.png" alt="mysql logo"></li>
+    
 </ul>`;
 
 const skillsBtn = document.querySelector(".skills-btn");
